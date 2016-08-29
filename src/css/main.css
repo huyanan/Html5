@@ -66,7 +66,49 @@ body{
 }
 
 .check{
-	background-image: url(../images/.png);
-	background-repeat: no-repeat;
-	background-size: 135px 29px;
+	background-image: url(../images/104-找茬-排行榜-日榜-BTN-查看.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 55px;
+}
+
+.rank-list{
+	margin-top: 10px;
+}
+
+.rank-item span{
+	display: inline-block;
+
+}
+
+.rank-item .index{
+	width: 5%;
+}
+
+.rank-item .avatar{
+	width: 15%;
+}
+
+.rank-item .name{
+	width: 40%;
+}
+
+.rank-item .rank-text{
+	width: 35%;
+}
+
+
+.rank-text,
+.gift{
+	font-size: 24px;
+	color: #ffcc00;
+}
+
+.avatar-link{
+	border-radius: 20px;
+	overflow: hidden;
+	display: inline-block;
 }
