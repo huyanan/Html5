@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/唯一背景图.png);
+	background-image: url(../images/rank-background.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #1b0a4e;
@@ -53,7 +53,7 @@ h5{
 }
 
 .regist{
-	background-image: url(../images/104-提交按钮.png);
+	background-image: url(../images/submit-btn.png);
 	background-repeat: no-repeat;
 	background-size: 135px 29px;
 
@@ -148,7 +148,7 @@ h5{
 }
 
 .check{
-	background-image: url(../images/104-找茬-排行榜-日榜-BTN-查看.png);
+	background-image: url(../images/check-btn.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
