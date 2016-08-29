@@ -2,13 +2,17 @@ body{
 	background-image: url(../images/唯一背景图.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-color: #0068b7;
+	background-color: #1b0a4e;
 
 	padding-top: 42px;
 	padding-left: 18px;
 	padding-right: 18px;
 
 	color: #ffffff;
+}
+
+h5{
+	font-weight: bold;
 }
 
 .container{
@@ -25,6 +29,11 @@ body{
 	padding-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.nice-split{
+	border-top: 1px solid #002a83;
+	border-bottom: 1px solid #00a3d8;
 }
 
 .pick{
@@ -59,10 +68,83 @@ body{
 	display: block;
 	width: 100%;
 	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .go img{
 	width: 100%;
 	height: 100%;
+}
+
+.about-me{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rank-about{
+	color: #00d0ff;
+}
+
+#rank-list-tab{
+	border-bottom: none;
+}
+
+#rank-list-tab li{
+	width: 50%;
+	text-align: center;
+}
+
+.day-rank-tab{
+	background-image: url(../images/day-rank-btn-2.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #0068b7;
+
+	border:none;
+	
+
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+.active .day-rank-tab{
+	background-image: url(../images/day-rank-btn-1.gif);
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover{
+	background-color: #0068b7;
+	border:none;
+}
+
+.total-rank-tab{
+	background-image: url(../images/total-rank-btn-2.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #0068b7;
+
+	border:none;
+
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+.active .total-rank-tab{
+	background-image: url(../images/total-rank-btn-1.gif);
+}
+
+#day-rank-panel{
+	padding-top: 10px;
+}
+
+#day-rank-panel .no-pad{
+	padding: 5px;
+}
+
+#day-rank-panel .form-group{
+	margin-bottom: 0px;
 }
 
 .check{
@@ -73,6 +155,7 @@ body{
     border: none;
     height: 30px;
     width: 55px;
+    margin-top: 3px;
 }
 
 .rank-list{
@@ -81,7 +164,8 @@ body{
 
 .rank-item span{
 	display: inline-block;
-
+	vertical-align: middle;
+    margin-bottom: 10px;
 }
 
 .rank-item .index{
@@ -105,6 +189,7 @@ body{
 .gift{
 	font-size: 24px;
 	color: #ffcc00;
+	text-align: right;
 }
 
 .avatar-link{
