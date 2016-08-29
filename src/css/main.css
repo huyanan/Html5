@@ -1,0 +1,52 @@
+body{
+	background-image: url(../images/唯一背景图.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #0068b7;
+
+	padding-top: 42px;
+	padding-left: 18px;
+	padding-right: 18px;
+
+	color: #ffffff;
+}
+
+.container{
+	
+	width: 100%;
+	height: auto;
+	
+}
+
+.register-container{
+	background-color: #0068b7;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+
+.pick{
+	width: 100%;
+
+}
+
+.info{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.regist-form{
+	padding-left: 40px;
+
+}
+
+.regist{
+	background-image: url(../images/104-提交按钮.png);
+	background-repeat: no-repeat;
+	background-size: 135px 29px;
+
+	width: 135px;
+	height: 29px;
+
+	margin-left: 40px;
+}
