@@ -207,6 +207,10 @@ p{
 	text-align: right;
 }
 
+.rank-text{
+	font-size: 20px;
+}
+
 .avatar-link{
 	border-radius: 20px;
 	overflow: hidden;
