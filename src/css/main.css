@@ -6,6 +6,7 @@ body{
 	padding-top: 42px;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-bottom: 70px;
 	color: #ffffff;
 	font-size:12px;
 }
@@ -96,6 +97,18 @@ p{
 	margin-right: 10px;
 }
 
+.about-me .media-heading{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100px;
+	font-size: 16px;
+}
+
+.media-body{
+	/* width: 20px; */
+}
+
 .rank-about{
 	color: #00d0ff;
 }
@@ -180,7 +193,7 @@ p{
 .rank-item span{
 	display: inline-block;
 	vertical-align: middle;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .rank-item .index{
@@ -189,10 +202,15 @@ p{
 
 .rank-item .avatar{
 	width: 15%;
+	margin-top: 5px;
 }
 
 .rank-item .name{
 	width: 40%;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .rank-item .rank-text{
@@ -208,7 +226,7 @@ p{
 }
 
 .rank-text{
-	font-size: 20px;
+	font-size: 29px;
 }
 
 .avatar-link{
