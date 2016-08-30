@@ -3,23 +3,27 @@ body{
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #1b0a4e;
-
 	padding-top: 42px;
-	padding-left: 18px;
-	padding-right: 18px;
-
+	padding-left: 15px;
+	padding-right: 15px;
 	color: #ffffff;
+	font-size:12px;
 }
 
 h5{
 	font-weight: bold;
 }
 
+p{
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
 .container{
 	
 	width: 100%;
 	height: auto;
-	
+	padding: 0px;
 }
 
 .register-container,
@@ -43,24 +47,35 @@ h5{
 
 .info{
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin:0px;
 }
 
-.regist-form{
-	padding-left: 40px;
 
+.regist-form{
+	padding-left: 10px;
+}
+
+.regist-form label{
+	width: 20%;
+	display:inline-block;
+	text-align: right;
+	font-size: 14px;
+}
+
+.regist-form input{
+	width: 66%;
+	display:inline-block;
 }
 
 .regist{
 	background-image: url(../images/submit-btn.png);
 	background-repeat: no-repeat;
 	background-size: 135px 29px;
-
 	width: 135px;
 	height: 29px;
-
-	margin-left: 40px;
+	margin-left: 80px;
 }
 
 
@@ -187,7 +202,7 @@ h5{
 
 .rank-text,
 .gift{
-	font-size: 24px;
+	font-size: 15px;
 	color: #ffcc00;
 	text-align: right;
 }
