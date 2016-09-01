@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/bg.png);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #1b0a4e;
@@ -99,7 +99,7 @@ p{
 }
 
 .regist{
-	background-image: url(../images/submit-btn.png);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/submit-btn.png);
 	background-repeat: no-repeat;
 	background-size: 135px 29px;
 	width: 135px;
@@ -151,7 +151,7 @@ p{
 }
 
 .day-rank-tab{
-	background-image: url(../images/day-rank-btn-2.gif);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/day-rank-btn-2.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #0068b7;
@@ -165,7 +165,7 @@ p{
 }
 
 .active .day-rank-tab{
-	background-image: url(../images/day-rank-btn-1.gif);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/day-rank-btn-1.gif);
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,
@@ -175,7 +175,7 @@ p{
 }
 
 .total-rank-tab{
-	background-image: url(../images/total-rank-btn-2.gif);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/total-rank-btn-2.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #0068b7;
@@ -188,7 +188,7 @@ p{
 }
 
 .active .total-rank-tab{
-	background-image: url(../images/total-rank-btn-1.gif);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/total-rank-btn-1.gif);
 }
 
 #day-rank-panel{
@@ -204,7 +204,7 @@ p{
 }
 
 .check{
-	background-image: url(../images/check-btn.png);
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/check-btn.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
