@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/rank-background.png);
+	background-image: url(../images/bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-color: #1b0a4e;
@@ -18,6 +18,34 @@ h5{
 p{
 	margin-left:10px;
 	margin-bottom:0px;
+}
+
+.share{
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.8;
+    z-index: 9999;
+}
+.share img{
+	width: 100%;
+	height:auto;
+}
+
+.logo{
+	position: absolute;
+	width: 139px;
+	height: 34px;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.logo img{
+	width:100%;
 }
 
 .container{

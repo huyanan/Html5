@@ -26,6 +26,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
+	<!-- 分享朋友圈遮罩层，点击后消失 -->
+	<div class="share">
+		<img src="images/share.png" alt="">
+	</div>
+
+	<div class="logo">
+		<img src="images/logo.png" alt="">
+	</div>
+
 	<div class="container">
 		<div class="rank-container">
 			<img class="pick" src="./images/pick.png" alt="">
@@ -209,7 +218,11 @@
 		$('#rank-list-tab a').click(function (e) {
 		  e.preventDefault()
 		  $(this).tab('show')
-		})
+		});
+
+		$('.share').click(function(e){
+			$(this).hide();
+		});
 
 	</script>
 </body>
