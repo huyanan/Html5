@@ -1,5 +1,6 @@
 body{
 	background-color: #ebebeb;
+	padding-top: 35px;
 }
 /**
  * 顶部导航
@@ -9,7 +10,9 @@ body{
 	height: 35px;
 	background: #fff url("../images/logo.jpg") center center no-repeat;
 	background-size: contain;
-	position: relative;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	border-bottom: 1px solid #dddddd;
 }
 
@@ -43,6 +46,10 @@ body{
 	font-size: 12px;	
 	line-height: 14px;
 	display: none;
+	color: #6d6d6d;
+}
+.menu-panel a{
+	color: #6d6d6d;
 }
 
 .menu-panel .find-out,
@@ -93,11 +100,12 @@ body{
 	position: relative;
 	border-bottom: 1px solid #adadad;
 	background-color: #fff;
+	padding-left: 14px;
 }
 .avatar-link{
 	width: 38px;
 	height: 38px;
-	margin-left: 14px;
+	/*margin-left: 14px;*/
 	border-radius: 19px;
 	overflow: hidden;
 	display: inline-block;
@@ -165,4 +173,24 @@ body{
  */
 .draw-main{
 	margin-top: 24px;
+}
+
+
+/**
+ * 车型详情
+ */
+.car-style{
+	margin-top: 20px;
+	background-color: #0068b7;
+	width: 100%;
+}
+
+.car-style h4{
+	font-size: 12px;
+	text-align: center;
+}
+
+.car-style .car-style-item{
+	width: 50%;
+	float: left;
 }
