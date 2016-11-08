@@ -67,6 +67,18 @@
 		<button class="draw button white">抽奖</button>
 	</div>
 
+	<!-- 提交用户信息 -->
+	<div id="user-submit-dialog" class="mask" style="display:none;">
+		<div class="yq-dialog">
+			<form class="draw-form" action="draw.html">
+				<input type="text" class="name" name="name" placeholder="请填写您的姓名" />
+				<input type="text" class="telephone" name="telephone" placeholder="请填写您的联系电话" />
+				<input type="submit" class="btn user-submit" value="提交">
+				<p class="help-block">请准确输入您的联系方式，便于收到我们的领奖通知</p>
+			</form>
+		</div>
+	</div>
+
 	<!-- 抽奖区域 -->
 	<div class="draw-main">
 		<img src="images/turntable.jpg" alt="">

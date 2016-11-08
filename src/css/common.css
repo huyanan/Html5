@@ -1,6 +1,7 @@
 body{
 	background-color: #ebebeb;
 	padding-top: 35px;
+	font-size: 12px;
 }
 /**
  * 顶部导航
@@ -175,6 +176,54 @@ body{
 	margin-top: 24px;
 }
 
+/*抽奖提交用户信息*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+
+.yq-dialog{
+    width:300px;
+    height:110px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top:-55px;
+    margin-left:-150px;
+}
+
+.draw-form{
+	text-align: center;
+}
+.draw-form .name,
+.draw-form .telephone{
+	width: 127px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.draw-form .telephone{
+	margin-left: 9px;
+}
+
+.draw-form .user-submit{
+	width: 266px;
+    height: 31px;
+    background: #fcdc3f;
+    color: #0068b7;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.draw-form .help-block{
+	margin-top: 10px;
+	color: #fcdc3f;
+}
 
 /**
  * 车型详情
