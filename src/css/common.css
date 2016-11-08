@@ -1,0 +1,168 @@
+body{
+	background-color: #ebebeb;
+}
+/**
+ * 顶部导航
+ */
+.nav-top{
+	width: 100%;
+	height: 35px;
+	background: #fff url("../images/logo.jpg") center center no-repeat;
+	background-size: contain;
+	position: relative;
+	border-bottom: 1px solid #dddddd;
+}
+
+.nav-top .menu-button{
+	width: 13px;
+	height: 10px;
+	line-height: 10px;
+	border-top: 2px solid #585858;
+	border-bottom: 2px solid #585858;
+	position: absolute;
+	top: 50%;
+	margin-top: -5px;
+	margin-left: 15px;
+}
+
+.nav-top .menu-button .line{
+	width: 100%;
+	height: 2px;
+	background-color: #585858;
+	margin-top: 2px;
+}
+
+/*导航菜单*/
+.menu-panel{
+	width: 100%;
+	height: 145px;
+	background-color: #fff;
+	position: absolute;
+	z-index: 99;
+	top: 35px;
+	font-size: 12px;	
+	line-height: 14px;
+	display: none;
+}
+
+.menu-panel .find-out,
+.menu-panel .diy{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 13px;
+}
+
+.menu-panel .find-out{
+	margin-left: 35px;
+}
+
+.menu-panel .diy{
+	margin-left: 122px;
+}
+
+.menu-panel ul{
+	margin-top: 13px;
+	margin-left: 12px;
+}
+
+.menu-panel ul li {
+	margin-bottom: 12px;
+}
+
+/**
+ * banner
+ */
+.banner{
+	width: 100%;
+	height: 75px;
+}
+
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/**
+ * user
+ */
+.user-wrap{
+	width: 100%;
+	height: 52px;
+	line-height: 52px;
+	position: relative;
+	border-bottom: 1px solid #adadad;
+	background-color: #fff;
+}
+.avatar-link{
+	width: 38px;
+	height: 38px;
+	margin-left: 14px;
+	border-radius: 19px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.user-name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	margin-left: 9px;
+	color: #616161;
+}
+
+.draw{
+	width: 60px;
+	height: 31px;
+	position: absolute;
+	right: 31px;
+	top: 50%;
+	margin-top: -15.5px;
+
+}
+
+
+/**
+ * 渐变按钮
+ */
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    /*padding: .5em 2em .55em;*/
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.orange {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+.white{
+	color: #808080;
+    border: solid 1px #ffffff;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#b4b4b4));
+    background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#b4b4b4');
+}
+
+/**
+ * 抽奖区域
+ */
+.draw-main{
+	margin-top: 24px;
+}
