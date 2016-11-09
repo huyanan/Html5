@@ -2,7 +2,11 @@ body{
 	background-color: #ebebeb;
 	padding-top: 35px;
 	font-size: 12px;
+
+	padding-bottom: 100px;
 }
+
+
 /**
  * 顶部导航
  */
