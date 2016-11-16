@@ -29,6 +29,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
+	<!-- 分享朋友圈遮罩层，点击后消失 -->
+	<div class="share">
+		<!-- <img src="http://oss-imgs.thinkpower.top/wechat/connect/images/share.png" alt=""> -->
+		<img src="./images/share_weibo.png" alt="">
+	</div>
+
 	<div class="nav-top">
 		<div class="menu-button">
 			<div class="line"></div>
@@ -86,8 +92,8 @@
 
 	<script type="text/javascript">
 
-		$(function(){
-			
+		$('.share').click(function(e){
+			$(this).hide();
 		});
 
 	</script>

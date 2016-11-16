@@ -1,0 +1,264 @@
+body{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #1b0a4e;
+	padding-top: 42px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 70px;
+	color: #ffffff;
+	font-size:12px;
+}
+
+h5{
+	font-weight: bold;
+}
+
+p{
+	margin-left:10px;
+	margin-bottom:0px;
+}
+
+.share{
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.8;
+    z-index: 9999;
+}
+.share img{
+	width: 100%;
+	height:auto;
+}
+
+.logo{
+	position: absolute;
+	width: 139px;
+	height: 34px;
+	top: 0px;
+	left: 0px;
+	z-index: 1000;
+}
+
+.logo img{
+	width:100%;
+}
+
+.container{
+	
+	width: 100%;
+	height: auto;
+	padding: 0px;
+}
+
+.register-container,
+.rank-container{
+	background-color: #0068b7;
+	padding-top: 16px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nice-split{
+	border-top: 1px solid #002a83;
+	border-bottom: 1px solid #00a3d8;
+}
+
+.pick{
+	width: 100%;
+
+}
+
+.info{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin:0px;
+}
+
+
+.regist-form{
+	padding-left: 10px;
+}
+
+.regist-form label{
+	width: 20%;
+	display:inline-block;
+	text-align: right;
+	font-size: 14px;
+}
+
+.regist-form input{
+	width: 66%;
+	display:inline-block;
+}
+
+.regist{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/submit-btn.png);
+	background-repeat: no-repeat;
+	background-size: 135px 29px;
+	width: 135px;
+	height: 29px;
+	margin-left: 80px;
+}
+
+
+.go{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.go img{
+	width: 100%;
+	height: 100%;
+}
+
+.about-me{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.about-me .media-heading{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100px;
+	font-size: 16px;
+}
+
+.media-body{
+	/* width: 20px; */
+}
+
+.rank-about{
+	color: #00d0ff;
+}
+
+#rank-list-tab{
+	border-bottom: none;
+}
+
+#rank-list-tab li{
+	width: 50%;
+	text-align: center;
+}
+
+.day-rank-tab{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/day-rank-btn-2.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #0068b7;
+
+	border:none;
+	
+
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+.active .day-rank-tab{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/day-rank-btn-1.gif);
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover{
+	background-color: #0068b7;
+	border:none;
+}
+
+.total-rank-tab{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/total-rank-btn-2.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #0068b7;
+
+	border:none;
+
+	width: 100%;
+	height: 100%;
+	text-indent: -9999px;
+}
+
+.active .total-rank-tab{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/total-rank-btn-1.gif);
+}
+
+#day-rank-panel{
+	padding-top: 10px;
+}
+
+#day-rank-panel .no-pad{
+	padding: 5px;
+}
+
+#day-rank-panel .form-group{
+	margin-bottom: 0px;
+}
+
+.check{
+	background-image: url(http://oss-imgs.thinkpower.top/wechat/connect/images/check-btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 55px;
+    margin-top: 3px;
+}
+
+.rank-list{
+	margin-top: 10px;
+}
+
+.rank-item span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.rank-item .index{
+	width: 5%;
+}
+
+.rank-item .avatar{
+	width: 15%;
+	margin-top: 5px;
+}
+
+.rank-item .name{
+	width: 40%;
+	font-size: 16px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.rank-item .rank-text{
+	width: 35%;
+}
+
+
+.rank-text,
+.gift{
+	font-size: 15px;
+	color: #ffcc00;
+	text-align: right;
+}
+
+.rank-text{
+	font-size: 29px;
+}
+
+.avatar-link{
+	border-radius: 20px;
+	overflow: hidden;
+	display: inline-block;
+}

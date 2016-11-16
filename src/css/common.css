@@ -6,6 +6,21 @@ body{
 	padding-bottom: 100px;
 }
 
+.share{
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.8;
+    z-index: 9999;
+}
+.share img{
+	width: 100%;
+	height:auto;
+}
+
 
 /**
  * 顶部导航
